@@ -38,14 +38,19 @@ If you deploy to Heroku and want to include mailer functionality, you will also 
 
 Then run the following in your terminal:
 
-`bundle`  
-`rake db:create`  
-`rails s`  
+```
+$ bundle  
+$ rake db:create
+$ rake db:migrate
+$ rails s
+```
 
 In a separate terminal tab, run:
 
-`npm install`  
-`npm start`  
+```
+$ npm install
+$ npm start
+```
 
 Then navigate to localhost:3000 in your browser.
 
